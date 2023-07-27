@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["es7", "dom"],
+    "strict": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src"]
+}
